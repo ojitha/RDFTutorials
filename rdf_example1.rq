@@ -1,0 +1,5 @@
+SELECT ?title
+WHERE
+{
+  <http://ojitha.github.io/blog/post> <http://purl.org/dc/elements/1.1/title> ?title .
+}    
