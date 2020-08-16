@@ -1,3 +1,7 @@
 @prefix dc:   <http://purl.org/dc/elements/1.1/> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
 @prefix :     <http://ojitha.github.io/blog/> .
 :post  dc:title  "Learn SPARQL for RDF" .
+:post dc:creator :owner .
+:owner foaf:given "Ojitha".
+:owner foaf:family "Kumanayaka" .
