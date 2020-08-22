@@ -1,0 +1,11 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <http://ojitha.github.io/blog#>.
+:oj rdf:type foaf:Person;
+   foaf:family_name "Kumanayaka";
+   foaf:givenname "Ojitha";
+   foaf:knows[
+    rdf:first <A1>; rdf:rest[
+    rdf:first <B1>; rdf:rest[
+    rdf:first <C1>; rdf:rest rdf:nil
+]]] .
